@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+  <manifest xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../manifest.xsd">
+    <guid>03a9fde9-04f4-4e52-974a-84dcff42e9d0</guid>
+    <version>0.7.1</version>
+    <authors>
+      <author>
+        <name>Zwielicht LC</name>
+        <main>true</main>
+      </author>
+    </authors>
+    <descriptions>
+      <description>
+        <text>Dieses Regelwerk versucht die Hausregeln der Zwielicht LC so gut wie möglich abzubilden.</text>
+        <lang>de-de</lang>
+      </description>
+    </descriptions>
+	<dependencies>
+	  <dependency>
+		  <!--<name>Rainforest Carbine Missions Errata</name>
+		  <guid>39B1963E-DFB3-4082-8D7F-79F88DAB786F</guid>-->
+	  </dependency>
+	</dependencies>
+  </manifest>

@@ -19,15 +19,36 @@
 -->
 <chummer>
   <metatypes>
-    <metatype>
-      <name>A.I.</name>
-      <hide />
-    </metatype>
-  </metatypes>
-</chummer>
-<chummer>
-  <metatypes>
-	<metatype xpathfilter="name = 'Dwarf'">
+	<metatype>
+		<name>A.I.</name>
+		<hide />
+	</metatype>
+	<metatype>
+		<name>Pixie</name>
+		<hide />
+	</metatype>
+	<metatype>
+		<name>Naga</name>
+		<hide />
+	</metatype>
+	<metatype>
+		<name>Sasquatch</name>
+		<bonus>
+			<lifestylecost />
+		</bonus>
+	</metatype>	
+	<metatype>
+		<name>Troll</name>
+		<bonus amendoperation="replace">
+			<lifestyle />
+		</bonus>
+		<metavariants>
+			<bonus amendoperation="replace">
+				<lifestylecost />
+			</bonus>
+		</metavariants>
+	</metatype>
+	<!--<metatype xpathfilter="name = 'Dwarf'">
 		<bonus>
 		  <lifestylecost amendoperation="replace">10</lifestylecost>
 		</bonus>
@@ -83,6 +104,6 @@
 				</bonus>
 			</metavariant>			
 		</metavariants>
-	</metatype>
+	</metatype>-->
   </metatypes>
 </chummer>
