@@ -17,7 +17,7 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema gear.xsd">
+<chummer>
   <!-- Due to the large variety of items in gear.xml, Regions are organised by category rather than sourcebook. -->
   <gears>
   	<categories amendoperation="append">
@@ -752,7 +752,7 @@
     </gear>
     <gear amendoperation="addnode">
       <id>fca52123-266f-4366-a908-37023c9ad59e</id>
-      <name>License</name>
+      <name>Lizenz</name>
       <category>ID/Credsticks</category>
       <rating>0</rating>
       <source>SR5</source>
@@ -761,7 +761,6 @@
       <bonus>
         <selectrestricted />
       </bonus>
-      <cost>Variable(0-250)</cost>
       <required>
         <geardetails>
           <OR>
@@ -771,6 +770,41 @@
       </required>
       <allowrename>True</allowrename>
     </gear>
+	<!-- Echte Berufslizenz -->
+    <gear amendoperation="addnode">
+      <id>0e2b83d2-6560-45ac-9ed0-241ed242a6c7</id>
+      <name>Berufszulassung</name>
+      <category>ID/Credsticks</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>447</page>
+      <bonus>
+        <selectrestricted />
+      </bonus>
+      <required>
+        <geardetails>
+          <OR>
+			<name>SIN</name>
+          </OR>
+        </geardetails>
+      </required>
+      <addoncategory>ID/Credsticks</addoncategory>
+      <addoncategory>Custom</addoncategory>
+	  <gears>
+        <usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>
+        </usegear>
+        <usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>		  
+        </usegear>
+		<usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>	  
+        </usegear>
+      </gears>
+    </gear>	
 	<!-- Fake Job Licenses -->
     <gear amendoperation="addnode">
       <id>82699830-be50-43be-9a16-b6abbde6fb08</id>
@@ -788,7 +822,6 @@
         <geardetails>
           <OR>
             <name>Fake SIN</name>
-			<name>SIN</name>
           </OR>
         </geardetails>
       </required>

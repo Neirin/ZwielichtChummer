@@ -37,17 +37,32 @@
 			<lifestylecost />
 		</bonus>
 	</metatype>	
-	<metatype>
-		<name>Troll</name>
-		<bonus amendoperation="replace">
-			<lifestyle />
-		</bonus>
-		<metavariants>
-			<bonus amendoperation="replace">
-				<lifestylecost />
-			</bonus>
-		</metavariants>
-	</metatype>
+    <metatype>
+      <name>Troll</name>
+      <bonus>
+        <lifestylecost />
+      </bonus>
+      <metavariants>
+        <metavariant>
+          <bonus>
+            <lifestylecost amendoperation="replace">0</lifestylecost>
+          </bonus>
+        </metavariant>
+      </metavariants>
+    </metatype>
+    <metatype>
+      <name>Dwarf</name>
+      <bonus>
+        <lifestylecost amendoperation="replace">0</lifestylecost>
+      </bonus>
+      <metavariants>
+        <metavariant>
+          <bonus>
+            <lifestylecost amendoperation="replace">0</lifestylecost>
+          </bonus>
+        </metavariant>
+      </metavariants>
+    </metatype>	
 	<!--<metatype xpathfilter="name = 'Dwarf'">
 		<bonus>
 		  <lifestylecost amendoperation="replace">10</lifestylecost>
