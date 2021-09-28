@@ -17,29 +17,29 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<!--This file is part a series of data files created for r/NeonAnarchy.
-
-	You can learn more at
-	https://www.reddit.com/r/NeonAnarchy
--->
 <chummer>
 	<licenses amendoperation="replace">
-		<license>Adeptenlizenz</license>
-		<license>Augmentations License</license>
+		<license>Adept License</license>
+		<license>Restricted Cyberware License</license>
+		<license>Restricted Bioware License</license>
 		<license>Concealed Carry Permit</license>
-		<license>Cyberdeck Lizenz</license>
-		<license>Führerschein</license>
-		<license>Dronen Lizenz</license>
-		<license>Drug License</license>
+		<license>Cyberdeck License</license>
+		<license>Driver's License</license>
+		<license>Drone License</license>
+		<license>Betäubungsmittel Lizenz</license>
 		<license>Explosives License</license>
-		<license>Firearms License</license>
-		<license>Foci License</license>
+		<license>Waffenbesitzkarte</license>
+		<license>Berufsgebunden: Waffenschein (Schwere Pistolen)</license>
+		<license>Berufsgebunden: Waffenschein (Schrotflinten)</license>
+		<license>Berufsgebunden: Waffenschein (Jagdgewehre)</license>
+		<license>Fokus Lizenz</license>
+		<license>Marine License</license>		
 		<license>Mage License</license>
 		<license>Pet License</license>
+		<license>Pilot License</license>
 		<license>Restricted Armor License</license>
-		<license>Software License</license>
+		<license>Software Lizenz</license>
 		<license>Technomancer License</license>
-		<license>Vehicle License</license>
-		<license>Weapon License</license>
+		<license>Fahrzeugzulassung</license>
 	</licenses>
 </chummer>

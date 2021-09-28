@@ -870,11 +870,32 @@
         <geardetails>
           <OR>
             <category>Custom</category>
-			<name>Gefälschte Berufszulassung</name>
+			<name>Berufszulassung</name>
           </OR>
         </geardetails>
       </required>
     </gear>	
+    <gear amendoperation="addnode">
+      <id>0fdf8404-5d99-4184-acf3-3e688b174709</id>
+      <name>Gefälschte Berufslizenz</name>
+      <category>ID/Credsticks</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>443</page>
+      <avail>0</avail>
+      <bonus>
+        <selectrestricted />
+      </bonus>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Custom</category>
+			<name>Gefälschte Berufszulassung</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>		
     <gear>
       <id>0c800bca-e6ff-475b-a014-c2069f5e364c</id> <!-- Fake SIN -->
       <forbidden>
