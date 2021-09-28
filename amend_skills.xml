@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+    <skillgroups amendoperation="replace">
+        <name>Acting</name>
+        <name>Athletics</name>
+        <!--<name>Biotech</name>-->
+        <name>Close Combat</name>
+        <name>Conjuring</name>
+        <name>Cracking</name>
+        <name>Electronics</name>
+        <name>Enchanting</name>
+        <name>Firearms</name>
+        <name>Influence</name>
+        <name>Ingenieurskunst</name>
+        <name>Outdoors</name>
+        <name>Sorcery</name>
+        <name>Stealth</name>
+        <name>Tasking</name>
+    </skillgroups>
+    <skills>
+        <!-- Biotech / Medizin Stuff -->
+		<skill amendoperation="remove">
+			<name>Biotechnology</name>
+			<hide />
+		</skill>
+		<skill amendoperation="remove">
+			<name>Cybertechnology</name>
+			<hide />
+		</skill>
+		<skill>
+			<name>First Aid</name>
+			<skillgroup amendoperation="replace" />
+		</skill>
+		<skill>
+			<name>Medicine</name>
+			<skillgroup amendoperation="replace" />
+		</skill> 
+        <!-- Athletik Stuff -->
+		<skill amendoperation="remove">
+			<name>Free-Fall</name>
+			<hide />
+		</skill>
+		<skill>
+			<name>Gymnastics</name>
+			<specs amendoperation="replace">
+				<spec>Balance</spec>
+				<spec>Climbing</spec>
+				<spec>Dance</spec>
+				<spec>Dodging</spec>
+				<spec>Freifall</spec>
+				<spec>Leaping</spec>
+				<spec>Parkour</spec>
+				<spec>Rolling</spec>
+			</specs>
+		</skill>  
+        <!-- Engineering Skillgroup -->  
+		<skill amendoperation="remove">
+			<name>Aeronautics Mechanic</name>
+			<skillgroup amendoperation="replace" />
+			<hide />
+		</skill>
+		<skill amendoperation="remove">
+			<name>Automotive Mechanic</name>
+			<skillgroup amendoperation="replace" />
+			<hide />
+		</skill>
+		<skill amendoperation="remove">
+			<name>Industrial Mechanic</name>
+			<skillgroup amendoperation="replace" />
+			<hide />
+		</skill>
+		<skill amendoperation="remove">
+			<name>Nautical Mechanic</name>
+			<skillgroup amendoperation="replace" />
+			<hide />
+		</skill>
+		<skill>
+			<name>Armorer</name>
+			<skillgroup amendoperation="replace">Ingenieurskunst</skillgroup>
+		</skill>
+		<skill>
+			<name>Demolitions</name>
+			<skillgroup amendoperation="replace">Ingenieurskunst</skillgroup>
+		</skill>        
+    </skills>
+</chummer>
