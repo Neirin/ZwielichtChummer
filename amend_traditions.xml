@@ -20,19 +20,19 @@
 <chummer>
   <traditions>
     <tradition>
-      <name>Cosmic</name>
-      <hide />
-    <tradition>
-    <tradition>
-      <name>Dark Magic</name>
+      <name>Insect Shaman</name>
       <hide />
     </tradition>
     <tradition>
-      <name>Elder God</name>
+      <name>Psionic</name>
       <hide />
     </tradition>
     <tradition>
       <name>Draconic</name>
+      <hide />
+    </tradition>
+    <tradition>
+      <name>Elder God</name>
       <hide />
     </tradition>
     <tradition>
@@ -44,6 +44,14 @@
       <hide />
     </tradition>
     <tradition>
+      <name>Dark Magic</name>
+      <hide />
+    </tradition>
+    <tradition>
+      <name>Elder God</name>
+      <hide />
+    </tradition>
+	   <tradition>
       <name>Romani</name>
       <hide />
     </tradition>
@@ -51,9 +59,5 @@
       <name>Tarot</name>
       <hide />
     </tradition>
-    <tradition>
-      <name>Elder God</name>
-      <hide />
-    </tradition>    
-  </traditions>
+  </traditions>  
 </chummer>

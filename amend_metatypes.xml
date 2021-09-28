@@ -42,7 +42,7 @@
     <metatype>
       <name>Troll</name>
       <bonus>
-        <lifestylecost />
+        <lifestylecost amendoperation="replace">0</lifestylecost>
       </bonus>
       <metavariants>
         <metavariant>
