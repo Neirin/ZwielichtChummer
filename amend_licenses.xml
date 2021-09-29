@@ -19,27 +19,29 @@
 -->
 <chummer>
 	<licenses amendoperation="replace">
-		<license>Adept License</license>
-		<license>Restricted Cyberware License</license>
-		<license>Restricted Bioware License</license>
-		<license>Concealed Carry Permit</license>
-		<license>Cyberdeck License</license>
-		<license>Driver's License</license>
-		<license>Drone License</license>
-		<license>Betäubungsmittel Lizenz</license>
-		<license>Explosives License</license>
-		<license>Waffenbesitzkarte</license>
+		<license>Allgemein: Adepten Lizenz</license>
+		<license>Allgemein: Zulassung für nicht frei erhältliche Bodytech</license>
+		<license>Allgemein: Fahrerlaubnis</license>
+		<license>Allgemein: Fahrzeugzulassung</license>		
+		<license>Allgemein: Drohnen Lizenz</license>
+		<license>Allgemein: Pilotenschein</license>
+		<license>Allgemein: Wasserfahrzeugschein</license>
+		<license>Allgemein: Medikamenten Lizenz</license>
+		<license>Allgemein: Waffenbesitzkarte</license>
+		<license>Allgemein: Jagdschein</license>
+		<license>Allgemein: Kleiner Waffenschein</license>
+		<license>Allgemein: Zauberer Lizenz</license>
+		<license>Allgemein: Beschwörer Lizenz</license>
+		<license>Allgemein: Haustierlizenz</license>
+		<license>Allgemein: Sprengstoff Lizenz</license>
 		<license>Berufsgebunden: Waffenschein (Schwere Pistolen)</license>
 		<license>Berufsgebunden: Waffenschein (Schrotflinten)</license>
-		<license>Berufsgebunden: Waffenschein (Jagdgewehre)</license>
-		<license>Fokus Lizenz</license>
-		<license>Marine License</license>		
-		<license>Mage License</license>
-		<license>Pet License</license>
-		<license>Pilot License</license>
-		<license>Restricted Armor License</license>
-		<license>Software Lizenz</license>
-		<license>Technomancer License</license>
-		<license>Fahrzeugzulassung</license>
+		<license>Berufsgebunden: Waffenschein (Kampfzauber)</license>
+		<license>Berufsgebunden: Approbation</license>
+		<license>Berufsgebunden: Heilmagie Zulassung</license>
+		<license>Berufsgebunden: Rauschmittelzulassung</license>	
+		<license>Berufsgebunden: Fokus Lizenz</license>
+		<license>Titel: Doktor</license>
+		<license>Titel: Professor</license>
 	</licenses>
 </chummer>
