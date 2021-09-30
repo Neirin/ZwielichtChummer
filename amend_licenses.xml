@@ -19,7 +19,6 @@
 -->
 <chummer>
 	<licenses amendoperation="replace">
-		<license>Allgemein: Adepten Lizenz</license>
 		<license>Allgemein: Zulassung für nicht frei erhältliche Bodytech</license>
 		<license>Allgemein: Fahrerlaubnis</license>
 		<license>Allgemein: Fahrzeugzulassung</license>		
@@ -30,17 +29,18 @@
 		<license>Allgemein: Waffenbesitzkarte</license>
 		<license>Allgemein: Jagdschein</license>
 		<license>Allgemein: Kleiner Waffenschein</license>
+		<license>Allgemein: Adepten Lizenz</license>		
 		<license>Allgemein: Zauberer Lizenz</license>
 		<license>Allgemein: Beschwörer Lizenz</license>
+		<license>Allgemein: Fokus Lizenz</license>	
 		<license>Allgemein: Haustierlizenz</license>
 		<license>Allgemein: Sprengstoff Lizenz</license>
-		<license>Berufsgebunden: Waffenschein (Schwere Pistolen)</license>
-		<license>Berufsgebunden: Waffenschein (Schrotflinten)</license>
-		<license>Berufsgebunden: Waffenschein (Kampfzauber)</license>
+		<license>Berufsgebunden: Großer Waffenschein</license>
 		<license>Berufsgebunden: Approbation</license>
-		<license>Berufsgebunden: Heilmagie Zulassung</license>
-		<license>Berufsgebunden: Rauschmittelzulassung</license>	
-		<license>Berufsgebunden: Fokus Lizenz</license>
+		<license>Berufsgebunden: Rauschmittelzulassung</license>
+		<license>Titel: Bachelor</license>
+		<license>Titel: Master</license>
+		<license>Titel: mit Auszeichnung</license>
 		<license>Titel: Doktor</license>
 		<license>Titel: Professor</license>
 	</licenses>
