@@ -19,6 +19,7 @@
 -->
 <chummer>
 	<qualities>
+	<!-- Verobtene Qualitäten -->
 		<quality>
 			<name>Amnesia (Neural Deletion)</name>
 			<hide />
@@ -31,6 +32,10 @@
 			<name>Apt Pupil</name>
 			<hide />
 		</quality>
+		<quality>
+			<name>Archivist</name>
+			<hide />
+		</quality>		
 		<quality>
 			<name>Better to be Feared Than Loved</name>
 			<hide />
@@ -51,6 +56,14 @@
 			<name>Carrier (HMHVV Strain III)</name>
 			<hide />
 		</quality>
+		<quality>
+			<name>Changeling (Class I SURGE)</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>Changeling (Class II SURGE)</name>
+			<hide />
+		</quality>		
 		<quality>
 			<name>Consummate Professional</name>
 			<hide />
@@ -99,6 +112,10 @@
 			<name>Hung Out to Dry</name>
 			<hide />
 		</quality>
+		<quality>
+			<name>Human Lifespan</name>
+			<hide />
+		</quality>		
 		<quality>
 			<name>In Debt</name>
 			<hide />
@@ -196,6 +213,10 @@
 			<hide />
 		</quality>
 		<quality>
+			<name>Networker</name>
+			<hide />
+		</quality>		
+		<quality>
 			<name>One of Them</name>
 			<hide />
 		</quality>
@@ -257,5 +278,134 @@
 			<name>Tough and Targeted</name>
 			<hide />
 		</quality>
+		<quality>
+			<name>Corrupter</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>Easily Exploitable</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>Fragmentation</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>Persnickety Renter</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>Real World Naiveté</name>
+			<hide />
+		</quality>		
+	<!-- Abgeänderte Qualitäten -->
+		<quality>
+			<name>Uneducated</name>
+			<forbidden>
+				<oneof>
+					<quality>College Education</quality>
+					<quality>Technical School Education</quality>
+				</oneof>
+			</forbidden>
+		</quality>	
+		<quality>
+			<name>College Education</name>
+			<forbidden>
+				<oneof>
+					<quality>Uneducated</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Technical School Education</name>
+			<forbidden>
+				<oneof>
+					<quality>Uneducated</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<!-- Complete Trogg -->
+		<quality>
+      		<name>Nasty Trog</name>
+			<required>
+				<oneof>
+					<metatype>Ork</metatype>
+					<metatype>Troll</metatype>
+				</oneof>
+			</required>
+    	</quality>
+    	<quality>
+      		<name>Trog Traitor</name>
+      		<required>
+        		<oneof>
+          			<metatype>Ork</metatype>
+			        <metatype>Troll</metatype>
+		        </oneof>
+      		</required>
+    	</quality>
+		<quality>
+			<name>Community Connection</name>
+			<required>
+				<oneof>
+					<metatype>Ork</metatype>
+					<metatype>Troll</metatype>
+				</oneof>
+			</required>
+		</quality>
+		<!-- KC Tchnomancer Qualities for Decker & TMs -->	
+		<quality>
+	  		<id>63fd5450-5f3d-4090-933e-ad0cf39ef0e2</id>
+      		<name>Brilliant Heuristics</name>
+      		<required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+    	</quality>
+    	<quality>
+     		<name>Fractal Punch</name>
+    		 <required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+    	</quality>
+		<quality>
+			<name>Hold the Door</name>
+			<required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+		</quality>
+		<quality>
+			<name>Lone Wolf</name>
+			<required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+		</quality>
+		<quality>
+			<name>Team Player</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>One With the Matrix I</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>One With the Matrix III</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>Trust Data, Not Lore</name>
+			<required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+		</quality>
+		<quality>
+			<name>Trust Lore, Not Data</name>
+			<required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+		</quality>
+		<quality>
+			<name>Unique Avatar</name>
+			<required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+		</quality>
+		<quality>
+			<name>On the Wagon</name>
+			<required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+		</quality>		
+		<!-- KC Negatives -->		
+		<quality>
+      		<name>Code of Honor: Black Hat</name>
+      		<hide />
+    	</quality>
+		<quality>
+			<name>Escaped Custody</name>
+			<hide />
+		</quality>		
 	</qualities>
 </chummer>
