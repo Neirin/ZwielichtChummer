@@ -73,6 +73,41 @@
 		<avail>12F</avail>
 		<cost>45</cost>
 	</gear>	
+	<!-- Region Programs -->
+	<gear amendoperation="addnode">
+	  <id>c5d0e712-94d4-420e-998a-096695f283be</id>
+	  <name>Cry Wolf</name>
+      <category>Hacking Programs</category>
+      <avail>4F</avail>
+      <cost>250</cost>
+      <source>KC</source>
+      <page>65</page>
+	</gear>	
+    <!-- Region Disguises -->
+    <gear>
+      	<name>Faceless - Specific Face</name>
+	  	<hide />
+      <!--<avail>(Rating*4)+4F</avail>
+      <cost>(Rating*1000)+5000</cost>-->
+    </gear>
+    <gear>
+      	<name>Faceless - Generic</name>
+		<hide />
+      <!--<avail>(Rating*4)F</avail>
+      <cost>(Rating*1000)+1000</cost>-->
+    </gear>
+    <gear>
+      <name>Faceless - Blurred Face</name>
+	  <hide />
+      <!--<avail>(Rating*4)F</avail>
+      <cost>Rating*1000</cost>-->
+    </gear>
+    <!-- End Region -->	
+    <!-- Region Contracts and Upkeep -->
+    <gear>
+      <name>Pheromone Detection (1 Month Advance Payment)</name>
+      <hide />
+    </gear>	
 	<!-- End Region -->	
 	<!-- Region Animals -->
 	<gear>
@@ -869,7 +904,6 @@
       <required>
         <geardetails>
           <OR>
-            <category>Custom</category>
 			<name>Berufszulassung</name>
           </OR>
         </geardetails>
