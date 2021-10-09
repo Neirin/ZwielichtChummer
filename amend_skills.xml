@@ -21,6 +21,7 @@
     <skillgroups amendoperation="replace">
         <name>Acting</name>
         <name>Athletics</name>
+		<name>Ätherologie</name>
         <!--<name>Biotech</name>-->
         <name>Close Combat</name>
         <name>Conjuring</name>
@@ -70,7 +71,20 @@
 				<spec>Parkour</spec>
 				<spec>Rolling</spec>
 			</specs>
-		</skill>  
+		</skill>
+		<!-- Ätherologie -->
+		<skill>
+			<name>Assensing</name>
+			<skillgroup amendoperation="replace">Ätherologie</skillgroup>
+		</skill>
+		<skill>
+			<name>Arcana</name>
+			<skillgroup amendoperation="replace">Ätherologie</skillgroup>
+		</skill>
+		<skill>
+			<name>Astral Combat</name>
+			<skillgroup amendoperation="replace">Ätherologie</skillgroup>
+		</skill>		
         <!-- Engineering Skillgroup -->  
 		<skill amendoperation="remove">
 			<name>Aeronautics Mechanic</name>
