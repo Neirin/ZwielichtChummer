@@ -31,7 +31,7 @@
       <name>Power Point</name>
       <forbidden amendoperation="addnode">
         <oneof>
-          <quality>Purity Bonus (Adept)</quality>
+          <quality>Eins mit der Magie (Adept)</quality>
         </oneof>
       </forbidden>
     </metamagic>
