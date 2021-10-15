@@ -111,18 +111,6 @@
 	    <name>False Impressions</name>
 	    <hide />
 	  </spell>
-<!--    <spell>
-      <name>Corps Cadavre</name>
-      <hide />
-    </spell>
-    <spell>
-      <name>Zombie</name>
-      <hide />
-    </spell> -->
-    <spell>
-      <name>Necro Summoning</name>
-      <hide />
-    </spell>
     <!-- Begin Blood Magic -->
     <spell>
       <name>Hemorrhage</name>

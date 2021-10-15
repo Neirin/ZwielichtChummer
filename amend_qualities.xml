@@ -21,6 +21,22 @@
 	<qualities>
 	<!-- Verobtene Qualitäten -->
 		<quality>
+			<name>Allergy (Uncommon, Mild)</name>
+			<karma>0</karma>
+		</quality>
+		<quality>
+			<name>Allergy (Uncommon, Moderate)</name>
+			<karma>0</karma>
+		</quality>
+		<quality>
+			<name>Allergy (Common, Mild)</name>
+			<karma>0</karma>
+		</quality>
+		<quality>
+			<name>Allergy (Common, Moderate)</name>
+			<karma>0</karma>
+		</quality>
+		<quality>
 			<name>Amnesia (Neural Deletion)</name>
 			<hide />
 		</quality>
@@ -247,6 +263,10 @@
 			<hide />
 		</quality>
 		<quality>
+			<name>Sensory Overload Syndrome</name>
+			<hide />
+		</quality>		
+		<quality>
 			<name>Special Modifications</name>
 			<hide />
 		</quality>
@@ -270,6 +290,10 @@
 			<name>This Is Your Last Chance</name>
 			<hide />
 		</quality>
+		<quality>
+			<name>TLE-X</name>
+			<hide />
+		</quality>		
 		<quality>
 			<name>Tough and Targeted</name>
 			<hide />
@@ -298,7 +322,15 @@
 			<name>Superhuman Psychosis</name>
 			<hide />
 		</quality>
-	<!-- Abgeänderte Qualitäten -->
+		<quality>
+			<name>VolksSIN</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>VolksSIN (Kriminell)</name>
+			<hide />
+		</quality>		
+		<!-- Abgeänderte Qualitäten -->
 		<quality>
 			<name>Uneducated</name>
 			<forbidden>
