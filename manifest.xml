@@ -19,7 +19,7 @@
 -->
   <manifest xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../manifest.xsd">
     <guid>03a9fde9-04f4-4e52-974a-84dcff42e9d0</guid>
-    <version>0.7.5</version>
+    <version>0.8</version>
     <authors>
       <author>
         <name>Zwielicht LC</name>
@@ -35,7 +35,7 @@
 	<dependencies>
 	  <dependency>
 		  <name>German Data Changes</name>
-		  <guid>b422724d-42d5-4ef4-bbb3-9dfa3c40cb61</guid>-->
+		  <guid>b422724d-42d5-4ef4-bbb3-9dfa3c40cb61</guid>
 	  </dependency>
 	</dependencies>
   </manifest>

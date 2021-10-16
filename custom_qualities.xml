@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
+  <qualities>
+  <!-- Shadow Haven -->
+    <quality>
+      <id>0a553fa5-e913-43a5-b235-0bfed057983d</id>
+      <name>History Is Less Certain Than We Are Taught</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <source>DM</source>
+      <page>5</page>
+    </quality>
+  <!-- Negatives --> 
+    <quality>
+      <id>a4feaf9b-d714-4854-8472-b8dbcb008277</id>
+      <name>Überwältigende Verzweiflung</name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <required>
+        <oneof>
+          <quality>History Is Less Certain Than We Are Taught</quality>
+        </oneof>
+      </required>
+      <source>DM</source>
+      <page>5</page>
+      <notes>Die Vierte Welt hatte Stein-Festungen, die gefüllt waren mit Armeen von Adepten, um die Dämonen zu bekämpfen. Unsere Glas-Türme und zerbrechliche Laser können sie nicht aufhalten...</notes>
+    </quality>
+    <quality>
+      <id>702baca8-a31d-49c8-b44c-334346fa9392</id>
+      <name>Eine schreckliche Faszination</name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <required>
+        <oneof>
+          <quality>History Is Less Certain Than We Are Taught</quality>
+        </oneof>
+      </required>
+      <source>DM</source>
+      <page>5</page>
+      <notes>Die Gelehrten der Vierten Welt sagten es wäre möglich unvorstellbare Macht zu Nutzen... vielleicht hatten sie einfach nur nicht die benötigte Technologie um aufzusteigen!</notes>
+    </quality>    
+  </qualities>
+</chummer>

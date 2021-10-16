@@ -1,0 +1,14 @@
+<chummer>
+    <books>
+        <book>
+            <id>236e245e-0283-4188-b8b9-f2e63f93984b</id>
+            <name>Defiance Manifest</name>
+            <code>DM</code>
+        </book>
+        <book>
+            <id>6b429471-f556-4bb4-9348-f6a2fa6d7ec6</id>
+            <name>Zwielicht</name>
+            <code>ZW</code>
+        </book>        
+    </books>
+</chummer>
