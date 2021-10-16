@@ -116,198 +116,156 @@
 		</skill>        
     </skills>
 	<knowledgeskills>
-		<skill>
-			<name>Magische Traditionen</name>
-    		<specs amendoperation="replace">
-        		<spec>Hermetik</spec>
-				<spec>Schamaisch</spec>
-				<spec>Aztekisch</spec>
-				<spec>Schwarze Magie</spec>
-				<spec>Buddhismus</spec>
-				<spec>Chaos Magie</spec>
-				<spec>Christliche Theurgie</spec>
-				<spec>Druidismus</spec>
-				<spec>Hinduismus</spec>
-				<spec>Islam</spec>
-				<spec>Pfad des Rades</spec>
-				<spec>Qabbalismus</spec>
-				<spec>Quimbanda</spec>
-				<spec>Shinto</spec>
-				<spec>Sioux</spec>
-				<spec>Voodoo</spec>
-				<spec>Wicca, Gardnerian</spec>
-				<spec>Wicca, Goddess</spec>
-				<spec>Wuxing</spec>
-				<spec>Zoroastrianismus</spec>
-				<spec>Insektent Schamanen</spec>
-				<spec>Aboriginal</spec>
-				<spec>Ägyptische Tradition</spec>
-				<spec>Nordisch</spec>
-				<spec>Psionisch</spec>
-				<spec>Obeah</spec>
-				<spec>Santeria</spec>
-				<spec>Kosmisch</spec>
-				<spec>Drakonisch</spec>
-				<spec>Druide [Alt]</spec>
-				<spec>Alte Götter</spec>
-				<spec>Nordisch [Alt]</spec>
-				<spec>Grüne Magie</spec>
-				<spec>Missionismus</spec>
-				<spec>Nekro Magic</spec>
-				<spec>Olympianismus</spec>
-				<spec>Pariah</spec>
-				<spec>Planare Magie</spec>
-				<spec>Rote Magie</spec>
-				<spec>Romani</spec>
-				<spec>Tarot</spec>
-				<spec>Dunkle Magie</spec>
-    		</specs>
-			<skill>
-				<id>0bbb3078-a940-4003-b4f3-fa23937cf000</id>
-				<name>Magische Gruppen</name>
-				<attribute>LOG</attribute>
-				<category>Academic</category>
-				<default>False</default>
-				<skillgroup />
-				<specs>
-					<spec>Schulen</spec>
-					<spec>Religionen/Kulte</spec>
-					<spec>Konzern</spec>
-					<spec>Politische Fraktionen</spec>
-					<spec>Magische Nationen</spec>
-					<spec>Kriminelle</spec>
-					<spec>[Spezifische Magische Gruppe]</spec>
-				</specs>
-			</skill>
-			<skill>
-				<id>0bbb3078-a940-4003-b4f3-fa23937cf001</id>
-				<name>Magische Güter</name>
-				<attribute>LOG</attribute>
-				<category>Academic</category>
-				<default>False</default>
-				<skillgroup />
-				<specs>
-					<spec>Foki</spec>
-					<spec>Orichalcum</spec>
-					<spec>Reagenzien</spec>
-				</specs>
-			</skill>
-			<skill>
-				<id>0bbb3078-a940-4003-b4f3-fa23937cf002</id>
-				<name>Manasphären Studien</name>
-				<attribute>LOG</attribute>
-				<category>Academic</category>
-				<default>False</default>
-				<skillgroup />
-				<specs>
-					<spec>Künstliche Biosphären</spec>
-					<spec>Hintergrundstrahlung</spec>
-					<spec>Geomantie</spec>
-					<spec>MAnastürme</spec>
-					<spec>Ley Linien</spec>
-					<spec>Refugien</spec>
-				</specs>
-			</skill>
-			<skill>
-				<id>0bbb3078-a940-4003-b4f3-fa23937cf003</id>
-				<name>Astrallandschaft</name>
-				<attribute>LOG</attribute>
-				<category>Academic</category>
-				<default>False</default>
-				<skillgroup />
-				<specs>
-					<spec>Alchera</spec>
-					<spec>Astrale Nexus Punkte</spec>
-					<spec>Astrale Risse</spec>
-					<spec>Landmarks</spec>
-					<spec>Ley Linien</spec>
-					<spec>[Metaebenen spezifisch]</spec>
-					<spec>[Metaebenen Ansammlung]</spec>
-				</specs>
-			</skill>
-			<skill>
-				<id>0bbb3078-a940-4003-b4f3-fa23937cf004</id>
-				<name>Taliskrämerei</name>
-				<attribute>LOG</attribute>
-				<category>Academic</category>
-				<default>False</default>
-				<skillgroup />
-				<specs>
-					<spec>Schätzen</spec>
-					<spec>Artefakte</spec>
-					<spec>Herstellungsprozess</spec>
-					<spec>Foki</spec>
-					<spec>Formeln</spec>
-					<spec>Reagenzien</spec>
-				</specs>
-			</skill>
-			<skill>
-				<id>0bbb3078-a940-4003-b4f3-fa23937cf005</id>
-				<name>Thaumaturgie</name>
-				<attribute>LOG</attribute>
-				<category>Academic</category>
-				<default>False</default>
-				<skillgroup />
-				<specs>
-					<spec>Zauberei</spec>
-					<spec>Beschwören</spec>
-					<spec>Verzaubern</spec>
-					<spec>Foki</spec>
-					<spec>Astrale Welt</spec>
-					<spec>Metaebenen</spec>
-					<spec>Initiationen</spec>
-					<spec>Schutzgeister</spec>
-				</specs>
-			</skill>
-			<skill>
-				<id>0bbb3078-a940-4003-b4f3-fa23937cf006</id>
-				<name>Arkane-Archäology</name>
-				<attribute>LOG</attribute>
-				<category>Academic</category>
-				<default>False</default>
-				<skillgroup />
-				<specs>
-					<spec>Artifakte</spec>
-					<spec>Göttlich/Spirituell</spec>
-					<spec>Drakonisch</spec>
-					<spec>Fey</spec>
-					<spec>Rituale</spec>
-					<spec>Zauberei</spec>
-					<spec>Atlantis</spec>
-				</specs>
-				</skill>
-			<skill>
-				<id>4c9208ed-716a-48a8-9d7b-0171ba50bbe4</id>
-				<name>Die Vierte Welt</name>
-				<attribute>INT</attribute>
-				<category>Interest</category>
-				<default>False</default>
-				<skillgroup />
-			</skill>
-			<skill>
-				</id>299a0e02-a783-451e-ab5b-9532cd279cb4</id>
-				<name>Der Feind</name>
-				<attribute>INT</attribute>
-				<category>Interest</attribute>
-				<default>False</default>
-				<skillgroup />
-			</skill>
-			<skill>
-				<id>1649eb31-a763-49a4-8955-cc8ba5d25738</id>
-				<name>Die Plage</name>
-				<attribute>INT</attribute>
-				<category>Interest</category>
-				<default>False</default>
-				<skillgroup />
-			</skill>
-			<skill>
-				<id>0ac894fd-29c3-4d56-9304-62f64b6ed862</id>
-				<name>Theranisches Imperium</name>
-				<attribute>INT</attribute>
-				<category>Interest</category>
-				<default>False</default>
-				<skillgroup />
-			</skill>			
+		<skill amendoperation="append">
+			<id>7dc73481-95f2-4829-af86-25fda8a67f80</id>
+			<name>Magische Gruppen</name>
+			<attribute>LOG</attribute>
+			<category>Academic</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Schulen</spec>
+				<spec>Religionen/Kulte</spec>
+				<spec>Konzern</spec>
+				<spec>Politische Fraktionen</spec>
+				<spec>Magische Nationen</spec>
+				<spec>Kriminelle</spec>
+				<spec>[Spezifische Magische Gruppe]</spec>
+			</specs>
 		</skill>
+		<skill amendoperation="append">
+			<id>de05c2fc-9f57-442b-8f05-a2673def933f</id>
+			<name>Magische Güter</name>
+			<attribute>LOG</attribute>
+			<category>Academic</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Foki</spec>
+				<spec>Orichalcum</spec>
+				<spec>Reagenzien</spec>
+			</specs>
+		</skill>
+		<skill amendoperation="append">
+			<id>a0737bd1-2ee6-4e4b-9ff8-4a71e7e10653</id>
+			<name>Manasphären Studien</name>
+			<attribute>LOG</attribute>
+			<category>Academic</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Künstliche Biosphären</spec>
+				<spec>Hintergrundstrahlung</spec>
+				<spec>Geomantie</spec>
+				<spec>MAnastürme</spec>
+				<spec>Ley Linien</spec>
+				<spec>Refugien</spec>
+			</specs>
+		</skill>
+		<skill amendoperation="append">
+			<id>b48ecb77-67b6-4152-879e-46f3990a5dfd</id>
+			<name>Astrallandschaft</name>
+			<attribute>LOG</attribute>
+			<category>Academic</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Alchera</spec>
+				<spec>Astrale Nexus Punkte</spec>
+				<spec>Astrale Risse</spec>
+				<spec>Landmarks</spec>
+				<spec>Ley Linien</spec>
+				<spec>[Metaebenen spezifisch]</spec>
+				<spec>[Metaebenen Ansammlung]</spec>
+			</specs>
+		</skill>
+		<skill amendoperation="append">
+			<id>68eaf5be-d8ef-42ce-b4f0-d434191e8e55</id>
+			<name>Taliskrämerei</name>
+			<attribute>LOG</attribute>
+			<category>Professional</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Schätzen</spec>
+				<spec>Artefakte</spec>
+				<spec>Herstellungsprozess</spec>
+				<spec>Foki</spec>
+				<spec>Formeln</spec>
+				<spec>Reagenzien</spec>
+			</specs>
+		</skill>
+		<skill amendoperation="append">
+			<id>9f5634df-7a14-47f8-9578-b8cc98224ae9</id>
+			<name>Thaumaturgie</name>
+			<attribute>LOG</attribute>
+			<category>Academic</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Zauberei</spec>
+				<spec>Beschwören</spec>
+				<spec>Verzaubern</spec>
+				<spec>Foki</spec>
+				<spec>Astrale Welt</spec>
+				<spec>Metaebenen</spec>
+				<spec>Initiationen</spec>
+				<spec>Schutzgeister</spec>
+			</specs>
+		</skill>
+		<skill amendoperation="append">
+			<id>1b1e1b95-da50-47dc-9ae7-78a2d0fedcf4</id>
+			<name>Arkane-Archäology</name>
+			<attribute>LOG</attribute>
+			<category>Academic</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Artifakte</spec>
+				<spec>Göttlich/Spirituell</spec>
+				<spec>Drakonisch</spec>
+				<spec>Fey</spec>
+				<spec>Rituale</spec>
+				<spec>Zauberei</spec>
+				<spec>Atlantis</spec>
+			</specs>
+		</skill>
+		<skill amendoperation="append">
+			<id>4c9208ed-716a-48a8-9d7b-0171ba50bbe4</id>
+			<name>Die Vierte Welt</name>
+			<attribute>INT</attribute>
+			<category>Interest</category>
+			<default>False</default>
+			<skillgroup />
+		</skill>
+		<skill amendoperation="append">
+			<id>8fe92866-3ad7-4204-89ba-11ea89710159</id>
+			<name>Die Plage</name>
+			<attribute>INT</attribute>
+			<category>Interest</category>
+			<default>False</default>
+			<skillgroup />
+		</skill>
+		<skill amendoperation="append">
+			<id>c6744cf0-47d7-4d9a-b456-814e5889def1</id>
+			<name>Der Feind</name>
+			<attribute>INT</attribute>
+			<category>Interest</category>
+			<default>False</default>
+			<skillgroup />
+		</skill>
+		<skill amendoperation="append">
+			<id>0ac894fd-29c3-4d56-9424-62f64b6ed862</id>
+			<name>Theranisches Imperium</name>
+			<attribute>INT</attribute>
+			<category>Interest</category>
+			<default>False</default>
+			<skillgroup />
+		</skill>				
 	</knowledgeskills>
+	<!--
+
+
+
+	</knowledgeskills>-->	
 </chummer>
