@@ -300,6 +300,14 @@
 				<default>False</default>
 				<skillgroup />
 			</skill>
+			<skill>
+				<id>0ac894fd-29c3-4d56-9304-62f64b6ed862</id>
+				<name>Theranisches Imperium</name>
+				<attribute>INT</attribute>
+				<category>Interest</category>
+				<default>False</default>
+				<skillgroup />
+			</skill>			
 		</skill>
 	</knowledgeskills>
 </chummer>
