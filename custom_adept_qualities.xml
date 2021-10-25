@@ -37,6 +37,7 @@
 			<forbidden>
 				<oneof>
 					<quality>Prototype Transhuman</quality>
+          <ess>-0.001</ess>
 					<ess grade="Used">0.0001</ess>
 					<ess grade="Standard">0.0001</ess>
 					<ess grade="Alphaware">0.0001</ess>
@@ -55,7 +56,7 @@
       <karma>0</karma>
       <category>Positive</category>
       <bonus>
-        <adeptpowerpoints>{MAG}*0.25</adeptpowerpoints>
+        <adeptpowerpoints>{MAGAdept}*0.25</adeptpowerpoints>
       </bonus>
 			<required>
 				<oneof>
@@ -65,6 +66,7 @@
 			<forbidden>
 				<oneof>
 					<quality>Prototype Transhuman</quality>
+          <ess>-0.001</ess>
 					<ess grade="Used">0.0001</ess>
 					<ess grade="Standard">0.0001</ess>
 					<ess grade="Alphaware">0.0001</ess>

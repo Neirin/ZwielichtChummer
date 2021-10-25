@@ -27,14 +27,6 @@
       <name>Quickening</name>
       <hide />
     </metamagic>
-    <metamagic>
-      <name>Power Point</name>
-      <forbidden amendoperation="addnode">
-        <oneof>
-          <quality>Eins mit der Magie (Adept)</quality>
-        </oneof>
-      </forbidden>
-    </metamagic>
   </metamagics>
   <!--
   <arts>

@@ -40,4 +40,10 @@
     </grade>
     <!-- End Region -->
   </grades>
+  <cyberwares>
+    <cyberware>
+      <name>Translat-ear</name>
+      <cost amendoperation="overwrite">Rating * 500</cost>
+    </cyberware>
+  </cyberwares>
 </chummer>
