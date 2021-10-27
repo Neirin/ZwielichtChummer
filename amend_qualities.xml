@@ -57,10 +57,6 @@
 			<hide />
 		</quality>
 		<quality>
-			<name>Black Market Pipeline</name>
-			<chargenonly amendoperation="remove" />
-		</quality>
-		<quality>
 			<name>Borrowed Time</name>
 			<hide />
 		</quality>
@@ -435,5 +431,10 @@
 			<name>Escaped Custody</name>
 			<hide />
 		</quality>
+		<!-- Adept
+		<quality>
+			<name>Adept</name>
+			<unlockskills amendoperation="overwrite">Astral Combat, Arcana</unlockskills>
+		</quality> -->
 	</qualities>
 </chummer>

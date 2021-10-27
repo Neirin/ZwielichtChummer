@@ -113,7 +113,7 @@
 	<gear>
 		<id>f801498a-0341-41b5-a87c-794b00c85b01</id>
 		<name>Alligator</name>
-		<category>Animals</category>
+		<category>Critter</category>
 		<rating>0</rating>
 		<avail>6R</avail>
 		<cost>300</cost>
@@ -529,8 +529,7 @@
 		<cost>46000</cost>
 		<source>HS</source>
 		<page>77</page>
-	</gear>	
-    <!-- End Region -->		
+	</gear>
 	<!-- Region Biotech -->
     <gear amendoperation="replace">
       <id>ae9c37df-6d82-44c1-aa21-6c87e45e2dc1</id>
