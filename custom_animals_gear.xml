@@ -23,7 +23,7 @@
         </gear>
         <gear>
             <id>1fc70eb1-13c8-4e47-a14b-181d7392a287</id>
-            <name>Cat, Domestic</name>
+            <name>Hauskatze</name>
             <category>Critter und Tiere</category>
             <rating>0</rating>
             <avail>0</avail>
@@ -33,7 +33,7 @@
         </gear>
         <gear>
             <id>ddf0b1d3-7a51-49c3-b3c0-dd513b3145ba</id>
-            <name>Chimpanzee</name>
+            <name>Schimpanse</name>
             <category>Critter und Tiere</category>
             <rating>0</rating>
             <avail>12R</avail>
@@ -43,7 +43,7 @@
         </gear>
         <gear>
             <id>6f1f6a70-84e1-476c-93c8-d6a28917c864</id>
-            <name>Dog</name>
+            <name>Hund</name>
             <category>Critter und Tiere</category>
             <rating>0</rating>
             <avail>0</avail>
@@ -53,7 +53,7 @@
         </gear>
         <gear>
             <id>58ecc881-3675-4555-8a7c-6b56a859b074</id>
-            <name>Eagle</name>
+            <name>Adler</name>
             <category>Critter und Tiere</category>
             <rating>0</rating>
             <avail>12F</avail>
@@ -63,7 +63,7 @@
         </gear>
         <gear>
             <id>1e01fe50-5dc1-4d05-b5c5-88d7559f14e4</id>
-            <name>Ferret</name>
+            <name>Frettchen</name>
             <category>Critter und Tiere</category>
             <rating>0</rating>
             <avail>0</avail>

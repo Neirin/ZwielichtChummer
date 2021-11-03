@@ -21,8 +21,8 @@
   <!-- Due to the large variety of items in gear.xml, Regions are organised by category rather than sourcebook. -->
   <gears>
   	<categories amendoperation="append">
-		<category>Critter und Tiere</category>
-	</categories>
+		  <category>Critter und Tiere</category>
+	  </categories>
 	<!-- Region Kill Code -->
 	<!-- Region Ammunition	-->	
     <gear>
@@ -333,6 +333,11 @@
       <hide />
     </gear>	
 	<!-- End Region -->	
+  <!-- Region Magic -->
+    <gear>
+      <name>Fetish</name>
+      <avail amendoperation="replace">12</avail>
+    </gear>
 	<!-- Region ID/Credsticks -->
     <gear amendoperation="addnode">
       <id>2eed08e8-1bda-4f4a-86a5-d9564c1c55a7</id>

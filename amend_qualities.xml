@@ -431,10 +431,16 @@
 			<name>Escaped Custody</name>
 			<hide />
 		</quality>
-		<!-- Adept
+		<!-- Explorer -->
 		<quality>
-			<name>Adept</name>
-			<unlockskills amendoperation="overwrite">Astral Combat, Arcana</unlockskills>
-		</quality> -->
+			<name>Explorer</name>
+			<bonus amendoperation="replace">
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<unlockskills name="Assensing">Name</unlockskills>
+				<unlockskills name="Astral Combat">Name</unlockskills>
+			</bonus>
+		</quality>
 	</qualities>
 </chummer>
