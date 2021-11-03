@@ -20,7 +20,7 @@
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema powers.xsd">
 
   <powers>
-    <!-- Adept Bug? -->
+    <!-- Adept Bug?
     <power>
       <name>Astral Perception</name>
       <bonus amendoperation="replace">
@@ -29,7 +29,7 @@
           <unlockskills name="Astral Combat">Name</unlockskills>
         </allof>
       </bonus>
-    </power>
+    </power> -->
     <!-- Region Street Grimoire -->
     <power>
       <name>Magic Sense</name>

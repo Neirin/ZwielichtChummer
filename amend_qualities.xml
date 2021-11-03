@@ -431,7 +431,7 @@
 			<name>Escaped Custody</name>
 			<hide />
 		</quality>
-		<!-- Explorer -->
+		<!-- Explorer 
 		<quality>
 			<name>Explorer</name>
 			<bonus amendoperation="replace">
@@ -441,6 +441,6 @@
 				<unlockskills name="Assensing">Name</unlockskills>
 				<unlockskills name="Astral Combat">Name</unlockskills>
 			</bonus>
-		</quality>
+		</quality>-->
 	</qualities>
 </chummer>
