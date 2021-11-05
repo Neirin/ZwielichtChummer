@@ -526,5 +526,8 @@
       <firewall>5</firewall>
     </gear>
 	<!-- End Region -->
+  <!-- Region Drugs -->
+    <gear>
+    </gear>
   </gears>
 </chummer>
