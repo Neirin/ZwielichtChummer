@@ -231,6 +231,29 @@
 			</specs>
 		</skill>
 		<skill amendoperation="append">
+			<id>29b8fcb0-4e5e-4835-a3d5-7eff02af9c91</id>
+			<name>Ortskenntnis: Hamburg</name>
+			<attribute>INT</attribute>
+			<category>Street</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Altona</spec>
+				<spec>Bergedorf</spec>
+				<spec>Eimsbüttel</spec>
+				<spec>Harburg</spec>
+				<spec>Kaltenkirchen</spec>
+				<spec>Lauenburg</spec>
+				<spec>Neue Mitte</spec>
+				<spec>Nord</spec>
+				<spec>Pinneberg</spec>
+				<spec>Stade</spec>
+				<spec>Stomarn</spec>
+				<spec>Wandsbek</spec>
+				<spec>HanseGrid</spec>
+			</specs>
+		</skill>
+		<skill amendoperation="append">
 			<id>4c9208ed-716a-48a8-9d7b-0171ba50bbe4</id>
 			<name>Die Vierte Welt</name>
 			<attribute>INT</attribute>
