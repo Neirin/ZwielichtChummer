@@ -411,7 +411,8 @@
       </required>
       <addoncategory>ID/Credsticks</addoncategory>
       <addoncategory>Custom</addoncategory>
-	  <gears>
+      <allowrename>True</allowrename>
+	    <gears>
         <usegear>
           <name>Berufslizenz</name>
           <category>ID/Credsticks</category>
@@ -420,7 +421,7 @@
           <name>Berufslizenz</name>
           <category>ID/Credsticks</category>		  
         </usegear>
-		<usegear>
+		    <usegear>
           <name>Berufslizenz</name>
           <category>ID/Credsticks</category>	  
         </usegear>
@@ -448,7 +449,8 @@
       </required>
       <addoncategory>ID/Credsticks</addoncategory>
       <addoncategory>Custom</addoncategory>
-	  <gears>
+      <allowrename>True</allowrename>
+	    <gears>
         <usegear>
           <name>Berufslizenz</name>
           <category>ID/Credsticks</category>
@@ -457,7 +459,7 @@
           <name>Berufslizenz</name>
           <category>ID/Credsticks</category>		  
         </usegear>
-		<usegear>
+		    <usegear>
           <name>Berufslizenz</name>
           <category>ID/Credsticks</category>	  
         </usegear>
