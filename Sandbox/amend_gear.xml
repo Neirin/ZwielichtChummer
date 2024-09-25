@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <!-- Due to the large variety of items in gear.xml, Regions are organised by category rather than sourcebook. -->
+  <gears>
+  	<categories amendoperation="append">
+		  <category>Critter und Tiere</category>
+	  </categories>
+	<!-- Region Kill Code -->
+	<!-- Region Ammunition	-->	
+    <gear>
+      <name>Ammo: Zapper</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ammo: Fuzzy</name>
+      <hide />
+    </gear>
+    <gear amendoperation="replace">
+      <id>b8ad4fef-4092-42ac-87ad-518dd8b60fb7</id>
+      <name>Ammo: Looper</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>49</page>
+      <avail>12R</avail>
+      <cost>200</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <name>Grenade: COS</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Grenade: Douser</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Grenade: DumDum</name>
+      <hide />
+    </gear>	
+    <gear>
+      <name>Grenade: Fuzzy Boom Boom Bunnies</name>
+      <hide />
+    </gear>
+	<gear>
+		<id>60ab05a7-2850-410c-9261-c5df6b5cddf1</id>
+		<avail>8R</avail>
+		<cost>(Rating * 30)</cost>
+	</gear>
+	<gear>
+		<id>39042c0a-4b22-4762-8d56-623033860178</id>
+		<avail>12F</avail>
+		<cost>45</cost>
+	</gear>	
+    <!-- Region Disguises -->
+    <gear>
+      	<name>Faceless - Specific Face</name>
+	  	<hide />
+      <!--<avail>(Rating*4)+4F</avail>
+      <cost>(Rating*1000)+5000</cost>-->
+    </gear>
+    <gear>
+      	<name>Faceless - Generic</name>
+		<hide />
+      <!--<avail>(Rating*4)F</avail>
+      <cost>(Rating*1000)+1000</cost>-->
+    </gear>
+    <gear>
+      <name>Faceless - Blurred Face</name>
+	  <hide />
+      <!--<avail>(Rating*4)F</avail>
+      <cost>Rating*1000</cost>-->
+    </gear>
+    <!-- End Region -->	
+    <!-- Region Contracts and Upkeep -->
+    <gear>
+      <name>Pheromone Detection (1 Month Advance Payment)</name>
+      <hide />
+    </gear>	
+	<!-- End Region -->	
+	<!-- Region Biotech -->
+    <gear amendoperation="replace">
+      <id>ae9c37df-6d82-44c1-aa21-6c87e45e2dc1</id>
+      <name>Medkit</name>
+      <category>Biotech</category>
+      <rating>6</rating>
+      <source>BB</source>
+      <page>17</page>
+      <avail>6</avail>
+      <armorcapacity>[5]</armorcapacity>
+      <bonus>
+        <limitmodifier>
+          <limit>Mental</limit>
+          <value>Rating</value>
+          <condition>Only for First Aid and Medicine</condition>
+        </limitmodifier>
+      </bonus>
+      <cost>FixedValues(100,400,900,1600,2500,3600)</cost>
+    </gear>
+    <gear>
+      <name>Advanced Medkit</name>
+	  <hide />
+    </gear>
+	<!-- End Region -->
+    <!-- Region Commlink Apps -->
+    <gear>
+      <id>6731a23a-25cc-4c86-be77-35e90693e837</id>
+      <cost>80</cost>
+    </gear>
+    <gear>
+      <id>09e35306-4850-43f0-b952-188ee097b0d6</id>
+      <cost>80</cost>
+    </gear>
+    <gear>
+      <id>0f17d835-cb4a-4673-820e-3feab32f0866</id>
+      <cost>80</cost>
+    </gear>
+    <gear>
+      <id>f1d72c1e-32f6-48d1-88c9-f916119cbaf8</id>
+      <cost>80</cost>
+    </gear>
+    <gear>
+      <id>e2af5e6b-3c6e-4b57-8093-d2e621a72a4c</id>
+      <cost>80</cost>
+    </gear>	
+    <!-- End Region -->
+	<!-- Region Bodyshop -->
+    <gear amendoperation="addnode">
+      <id>d369979e-cf99-4d43-8296-18fb585fb9ec</id>
+      <name>Waffensicherung: Ring / Armband</name>
+      <category>Custom</category>
+      <rating>0</rating>
+      <source>CF</source>
+      <page>86</page>
+      <avail>0</avail>
+      <addoncategory>Custom</addoncategory>
+      <cost>50</cost>
+    </gear>	
+	<!-- End Region -->
+	<!-- KC Decks -->
+	<gear>
+		<name>Fuchi Cyber-N</name>
+		<hide />
+	</gear>
+	<gear>
+		<name>Fuchi Cyber-Ex</name>
+		<hide />
+	</gear>	
+	<gear>
+		<name>MSI Falke</name>
+		<hide />
+	</gear>
+	<gear>
+      <name>Hunter Deck: Fox</name>
+      <hide />
+    </gear>		
+	<gear>
+      <name>Hunter Deck: Wolf</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Hunter Deck: Tiger</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Hunter Deck: Shark</name>
+      <hide />
+    </gear>	
+    <!-- Region Security Decks -->	
+	<gear>
+      <name>Security Deck: Guard</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Security Deck: Shield</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Security Deck: Fortress</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Security Deck: Great Wall</name>
+      <hide />
+    </gear>	
+	<!-- End Region -->
+    <!-- Region Programs -->
+    <gear>
+      <name>Pantheon Industries "Co-Pilot" Mk I</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Pantheon Industries "Co-Pilot" Mk II</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Pantheon Industries "Co-Pilot" Mk III</name>
+      <hide />
+    </gear>
+    <!-- End Region -->	
+	<!-- Region Booster Stuff	-->	
+	<gear>
+      <name>Attack Booster</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Sleaze Booster</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Data Processing Booster</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Firewall Booster</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Armor Defeating</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Slick Willy</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Data Dynamo</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Fortified</name>
+      <hide />
+    </gear>	
+	<!-- Booster Clouds -->
+	<gear>
+      <name>Booster Cloud [Brute Force]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Control Device]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Crack File]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Crash Program]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Data Spike]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Edit File]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Erase Mark]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Hack on the Fly]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Hide]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Jam Signals]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Matrix Perception]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Reboot Device]</name>
+      <hide />
+    </gear>	
+	<gear>
+      <name>Booster Cloud [Snoop]</name>
+      <hide />
+    </gear>
+	<gear>
+      <name>Booster Cloud [Spoof Command]</name>
+      <hide />
+    </gear>
+	<gear>
+      <name>Booster Cloud [Trace Icon]</name>
+      <hide />
+    </gear>
+	<gear>
+      <name>Booster Cloud [Custom Case]</name>
+      <hide />
+    </gear>
+	<!-- End Region -->
+	<!-- Matrix Accessoires -->
+    <gear>
+      <name>Faceless - Specific Face</name>
+      <hide />
+    </gear>	
+    <gear>
+      <name>Faceless - Generic</name>
+      <hide />
+    </gear>	
+    <gear>
+      <name>Faceless - Blurred Face</name>
+      <hide />
+    </gear>	
+	<!-- End Region -->	
+  <!-- Region Magic -->
+    <gear>
+      <name>Fetish</name>
+      <avail amendoperation="replace">12</avail>
+    </gear>
+	<!-- Region ID/Credsticks -->
+    <gear amendoperation="addnode">
+      <id>2eed08e8-1bda-4f4a-86a5-d9564c1c55a7</id>
+      <name>SIN</name>
+      <category>ID/Credsticks</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>442</page>
+      <avail>0</avail>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <required>
+        <oneof>
+          <quality>SINner (Corporate)</quality>
+          <quality>SINner (Criminal)</quality>
+          <quality>SINner (National)</quality>
+          <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+      </required>
+      <forbidden>
+        <geardetails>
+          <OR>
+            <name>SIN</name>
+            <name>Fake SIN</name>
+          </OR>
+        </geardetails>
+      </forbidden>
+      <cost>0</cost>
+      <addoncategory>ID/Credsticks</addoncategory>
+      <addoncategory>Custom</addoncategory>
+      <allowrename>True</allowrename>
+    </gear>
+    <gear amendoperation="addnode">
+      <id>fca52123-266f-4366-a908-37023c9ad59e</id>
+      <name>Lizenz</name>
+      <category>ID/Credsticks</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>443</page>
+      <avail>0</avail>
+      <bonus>
+        <selectrestricted />
+      </bonus>
+      <required>
+        <geardetails>
+          <OR>
+            <name>SIN</name>
+          </OR>
+        </geardetails>
+      </required>
+      <allowrename>True</allowrename>
+    </gear>
+	<!-- Echte Berufslizenz -->
+    <gear amendoperation="addnode">
+      <id>0e2b83d2-6560-45ac-9ed0-241ed242a6c7</id>
+      <name>Berufszulassung</name>
+      <category>ID/Credsticks</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>447</page>
+      <bonus>
+        <selectrestricted />
+      </bonus>
+      <required>
+        <geardetails>
+          <OR>
+			<name>SIN</name>
+          </OR>
+        </geardetails>
+      </required>
+      <addoncategory>ID/Credsticks</addoncategory>
+      <addoncategory>Custom</addoncategory>
+      <allowrename>True</allowrename>
+	    <gears>
+        <usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>
+        </usegear>
+        <usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>		  
+        </usegear>
+		    <usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>	  
+        </usegear>
+      </gears>
+    </gear>	
+	<!-- Fake Job Licenses -->
+    <gear amendoperation="addnode">
+      <id>82699830-be50-43be-9a16-b6abbde6fb08</id>
+      <name>Gefälschte Berufszulassung</name>
+      <category>ID/Credsticks</category>
+      <rating>6</rating>
+      <source>SR5</source>
+      <page>447</page>
+      <avail>(Rating * 3)F</avail>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <cost>Rating * 400</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Fake SIN</name>
+          </OR>
+        </geardetails>
+      </required>
+      <addoncategory>ID/Credsticks</addoncategory>
+      <addoncategory>Custom</addoncategory>
+      <allowrename>True</allowrename>
+	    <gears>
+        <usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>
+        </usegear>
+        <usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>		  
+        </usegear>
+		    <usegear>
+          <name>Berufslizenz</name>
+          <category>ID/Credsticks</category>	  
+        </usegear>
+      </gears>
+    </gear>
+    <gear amendoperation="addnode">
+      <id>659f616d-8a68-4005-8df0-ff2c3950ee30</id>
+      <name>Berufslizenz</name>
+      <category>ID/Credsticks</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>443</page>
+      <avail>0</avail>
+      <bonus>
+        <selectrestricted />
+      </bonus>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+			<name>Berufszulassung</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>	
+    <gear amendoperation="addnode">
+      <id>0fdf8404-5d99-4184-acf3-3e688b174709</id>
+      <name>Gefälschte Berufslizenz</name>
+      <category>ID/Credsticks</category>
+      <rating>6</rating>
+      <source>SR5</source>
+      <page>443</page>
+      <avail>(Rating * 3)F</avail>
+      <bonus>
+        <selectrestricted />
+      </bonus>
+      <cost>Rating * 200</cost>
+      <required>
+        <geardetails>
+			<name>Gefälschte Berufszulassung</name>
+        </geardetails>
+      </required>
+    </gear>		
+    <gear>
+      <id>0c800bca-e6ff-475b-a014-c2069f5e364c</id> <!-- Fake SIN -->
+      <forbidden>
+        <geardetails amendoperation="replace" addifnotfound="True">
+          <OR>
+            <name>SIN</name>
+            <name>Fake SIN</name>
+          </OR>
+        </geardetails>
+      </forbidden>
+    </gear>		
+    <!-- End Region -->	
+    <!-- Region Alchemical Supplies -->
+    <gear>
+      <name>Crucible</name>
+      <hide />
+    </gear>
+    <!-- End Region -->
+	<!-- Region RCCs -->
+    <gear>
+      <id>f9941dbe-1db1-4948-a8be-d760733446ea</id>
+      <dataprocessing>6</dataprocessing>
+      <firewall>5</firewall>
+    </gear>
+	<!-- End Region -->
+  <!-- Region Drugs -->
+  </gears>
+</chummer>
