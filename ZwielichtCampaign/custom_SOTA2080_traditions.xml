@@ -1,0 +1,164 @@
+<chummer>
+  <traditions>
+    <tradition>
+      <id>72900da3-7430-4079-93a0-594d1b6757b3</id>
+      <name>Tradition der Wächter</name>
+      <drain>{WIL} + {CHA}</drain>
+      <source>SOTG</source>
+      <page>28</page>
+      <bonus>
+        <skillgroupdisable>Enchanting</skillgroupdisable>
+        <addmetamagic forced="True">Masking</addmetamagic>
+	<addqualities>
+          <addquality forced="True">Code of Honor</addquality>
+	</addqualities>
+      </bonus>
+      <spirits>
+        <spiritcombat>Guardian Spirit</spiritcombat>
+        <spiritdetection>Guidance Spirit</spiritdetection>
+        <spirithealth>Spirit of Earth</spirithealth>
+        <spiritillusion>Spirit of Water</spiritillusion>
+        <spiritmanipulation>Task Spirit</spiritmanipulation>
+      </spirits>
+    </tradition>
+
+    <tradition>
+      <id>b3107814-e4ba-4497-9370-e23ff2008d0d</id>
+      <name>Faustianer [universitär]</name>
+      <drain>{WIL} + {LOG}</drain>
+      <source>SOTG</source>
+      <page>25</page>
+      <bonus>
+      </bonus>
+      <spirits>
+        <spiritcombat>Spirit of Fire</spiritcombat>
+        <spiritdetection>Spirit of Earth</spiritdetection>
+        <spirithealth>Guidance Spirit</spirithealth>
+        <spiritillusion>Spirit of Water</spiritillusion>
+        <spiritmanipulation>Spirit of Man</spiritmanipulation>
+      </spirits>
+    </tradition>
+
+    <tradition>
+      <id>4b56f905-f46b-46a7-b22f-ad5672f9bfa1</id>
+      <name>Faustianer [paktierer]</name>
+      <drain>{WIL} + {LOG}</drain>
+      <source>SOTG</source>
+      <page>25</page>
+      <bonus>
+
+      </bonus>
+      <spirits>
+        <spiritcombat>Spirit of Fire</spiritcombat>
+        <spiritdetection>Spirit of Earth</spiritdetection>
+        <spirithealth>Guidance Spirit</spirithealth>
+        <spiritillusion>Spirit of Water</spiritillusion>
+        <spiritmanipulation>Spirit of Man</spiritmanipulation>
+      </spirits>
+    </tradition>
+
+    <tradition>
+      <id>69065eaf-8b25-4702-a9a9-f2d907939af5</id>
+      <name>Brockenhexen [Kesselweise]</name>
+      <drain>{WIL} + {INT}</drain>
+      <source>SOTG</source>
+      <page>25</page>
+      <bonus>
+        <skilldisable>Spellcasting</skilldisable>
+      </bonus>
+      <spirits>
+        <spiritcombat>Spirit of Beasts</spiritcombat>
+        <spiritdetection>Spirit of Air</spiritdetection>
+        <spirithealth>Plant Spirit</spirithealth>
+        <spiritillusion>Spirit of Water</spiritillusion>
+        <spiritmanipulation>Spirit of Fire</spiritmanipulation>
+      </spirits>
+    </tradition>
+
+    <tradition>
+      <id>6bbd743c-c099-411c-b444-f72a95d4d691</id>
+      <name>Brockenhexen [Helsmagd]</name>
+      <drain>{WIL} + {INT}</drain>
+      <source>SOTG</source>
+      <page>25</page>
+      <bonus>
+        <spellcategory>
+          <name>Combat</name>
+          <val>1</val>
+        </spellcategory>
+        <skilldisable>Ritual Spellcasting</skilldisable>
+      </bonus>
+      <spirits>
+        <spiritcombat>Spirit of Beasts</spiritcombat>
+        <spiritdetection>Spirit of Air</spiritdetection>
+        <spirithealth>Plant Spirit</spirithealth>
+        <spiritillusion>Spirit of Water</spiritillusion>
+        <spiritmanipulation>Spirit of Fire</spiritmanipulation>
+      </spirits>
+    </tradition>
+
+    <tradition>
+      <id>c7bae129-7965-4868-9d87-6ec61b4ded7b</id>
+      <name>Friesenmagier [Frijskwart]</name>
+      <drain>{WIL} + {LOG}</drain>
+      <source>SOTG</source>
+      <page>26</page>
+      <bonus>
+        <skilldisable>Binding</skilldisable>
+        <skilldisable>Summoning</skilldisable>
+      </bonus>
+      <spirits>
+        <spiritcombat>Spirit of Water</spiritcombat>
+        <spiritdetection>Spirit of Earth</spiritdetection>
+        <spirithealth>Guidance Spirit</spirithealth>
+        <spiritillusion>Spirit of Air</spiritillusion>
+        <spiritmanipulation>Plant Spirit</spiritmanipulation>
+      </spirits>
+    </tradition>
+
+    <tradition>
+      <id>1e1f502d-27c2-4394-b40b-8aa3044c1021</id>
+      <name>Friesenmagier [Meermönch]</name>
+      <drain>{WIL} + {LOG}</drain>
+      <source>SOTG</source>
+      <page>26</page>
+      <bonus>
+        <specificskill>
+          <name>Navigation</name>
+          <bonus>2</bonus>
+        </specificskill>
+        <skilldisable>Binding</skilldisable>
+        <skilldisable>Summoning</skilldisable>
+      </bonus>
+      <spirits>
+        <spiritcombat>Spirit of Water</spiritcombat>
+        <spiritdetection>Spirit of Earth</spiritdetection>
+        <spirithealth>Guidance Spirit</spirithealth>
+        <spiritillusion>Spirit of Air</spiritillusion>
+        <spiritmanipulation>Plat Spirit</spiritmanipulation>
+      </spirits>
+    </tradition>
+
+    <tradition>
+      <id>56e6952f-f58c-496e-8958-3e6be0e22dda</id>
+      <name>Freudianer</name>
+      <drain>{WIL} + {LOG}</drain>
+      <source>SOTG</source>
+      <page>27</page>
+      <bonus>
+        <skillgroupdisable>Enchanting</skillgroupdisable>
+	<addqualities>
+          <addquality forced="True">Arcane Arrester</addquality>
+        <spellresistance>2</spellresistance>
+	</addqualities>
+      </bonus>
+      <spirits>
+        <spiritcombat>Spirit of Fire</spiritcombat>
+        <spiritdetection>Spirit of Earth</spiritdetection>
+        <spirithealth>Spirit of Man</spirithealth>
+        <spiritillusion>Spirit of Water</spiritillusion>
+        <spiritmanipulation>Spirit of Air</spiritmanipulation>
+      </spirits>
+    </tradition>
+  </traditions>
+</chummer>
