@@ -19,10 +19,12 @@
 -->
 <chummer>
 	<licenses amendoperation="replace">
-		<license>Allgemein: Zulassung für nicht frei erhältliche Bodytech</license>
+		<license>Allgemein: Zulassung für nicht frei erhältliche Cyberware</license>
+		<license>Allgemein: Zulassung für nicht frei erhältliche Bioware</license>
+		<license>Allgemein: Zulassung für nicht frei erhältliche Geneware</license>
 		<license>Allgemein: Fahrerlaubnis</license>
 		<license>Allgemein: Fahrzeugzulassung</license>		
-		<license>Allgemein: Drohnen Lizenz</license>
+		<license>Allgemein: [KATEGORIE] Drohnen Lizenz</license>
 		<license>Allgemein: Pilotenschein</license>
 		<license>Allgemein: Wasserfahrzeugschein</license>
 		<license>Allgemein: Medikamenten Lizenz</license>
@@ -36,8 +38,10 @@
 		<license>Allgemein: Haustierlizenz</license>
 		<license>Allgemein: Sprengstoff Lizenz</license>
 		<license>Berufsgebunden: Großer Waffenschein</license>
+		<license>Berufsgebunden: Aufklärungsdrohnenschein</license>
 		<license>Berufsgebunden: Approbation</license>
 		<license>Berufsgebunden: Rauschmittelzulassung</license>
+		<license>Berufsgebunden: Transportdienstleister</license>
 		<license>Titel: Bachelor</license>
 		<license>Titel: Master</license>
 		<license>Titel: mit Auszeichnung</license>
